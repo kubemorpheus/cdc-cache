@@ -1,0 +1,7 @@
+[package]
+name = "cdc-ingest"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+cdc-core.workspace = true

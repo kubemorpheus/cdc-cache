@@ -1,0 +1,9 @@
+[package]
+name = "cdc-server"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+cdc-core.workspace = true
+cdc-storage.workspace = true
+cdc-ingest.workspace = true

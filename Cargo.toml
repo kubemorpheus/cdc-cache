@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+cdc-core = { path = "crates/cdc-core" }
+cdc-storage = { path = "crates/cdc-storage" }
+cdc-ingest = { path = "crates/cdc-ingest" }
